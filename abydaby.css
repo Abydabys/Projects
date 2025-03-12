@@ -1,0 +1,130 @@
+body {
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(217, 233, 238);
+}
+.right-div {
+    width: 50%;
+    height: 80%;
+    background-color: beige;
+    position: relative;
+    overflow: scroll;
+}
+
+img {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 250px; 
+    height: auto;
+}
+.name {
+    position: relative;
+    left: 2%; /* Center the element horizontally */
+    bottom: 10%;
+    font-size: 24px;
+}
+.year{
+    position: relative;
+    left: 11%;
+    bottom: 17%;
+    font-size: 18px;
+}
+.photo{
+    width: 100%;
+    height: 53%;
+}
+.info{
+    font-size: 24px;
+    position: relative;
+}
+.left-div{
+    width: 50%;
+    height: 80%;
+}
+.collapsible{
+    background-color: beige;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.active, .collapsible:hover {
+    background-color: rgb(202, 202, 180);
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: rgb(196, 231, 241);
+    border-radius: 10px;
+    font-size: 21px;
+    text-align: center;
+}
+#other{
+    padding: 21.5px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+@media (max-width: 1536px) {
+    .container {
+      max-width: 1280px;
+    }
+  }
+  @media (max-width: 1280px) {
+    .container {
+      max-width: 1024px;
+    }
+  }
+  @media (max-width: 1024px) {
+    .container {
+      max-width: 768px;
+    }
+  }
+  @media (max-width: 768px) {
+    .container {
+      max-width: 640px;
+    }
+  }
+  @media (max-width: 640px) {
+    .container {
+      max-width: 475px;
+    }
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+  @media (max-width: 475px) {
+    .container {
+      max-width: 375px;
+    }
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+  @media (max-width: 375px) {
+    .container {
+      max-width: 320px;
+    }
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
