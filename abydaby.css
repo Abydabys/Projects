@@ -7,6 +7,8 @@ body {
     width: 50%;
     height: 80%;
     background-color: beige;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
     position: relative;
     overflow: scroll;
 }
@@ -14,20 +16,22 @@ body {
 img {
     position: relative;
     top: auto;
-    left: auto;
+    left: 30%;
     width: 250px; 
     height: auto;
 }
 .name {
     position: relative;
-    left: 2%; /* Center the element horizontally */
-    bottom: 10%;
+    left: 32%; /* Center the element horizontally */
+    bottom: 11%;
     font-size: 24px;
 }
 .year{
     position: relative;
-    left: 11%;
+    left: 40.5%;
     bottom: 17%;
+    /* left: 11%;
+    bottom: 17%; */
     font-size: 18px;
 }
 .photo{
@@ -41,9 +45,12 @@ img {
 .left-div{
     width: 50%;
     height: 80%;
+    background-color: beige;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 .collapsible{
-    background-color: beige;
+    background:none;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -100,6 +107,18 @@ img {
     .container {
       max-width: 640px;
     }
+    .name {
+      left: auto;
+    }
+    .year {
+      left: auto;
+    }
+    .right-div{
+      border-radius: 0px;
+    }
+    .collapsible {
+      background-color: beige;
+    }
   }
   @media (max-width: 640px) {
     .container {
@@ -108,6 +127,19 @@ img {
     img{
       width: 100%;
       height: auto;
+      left: auto;
+    }
+    .name {
+      left: auto;
+    }
+    .year {
+      left: auto;
+    }
+    .right-div{
+      border-radius: 0px;
+    }
+    .collapsible {
+      background-color: beige;
     }
   }
   @media (max-width: 475px) {
@@ -117,6 +149,19 @@ img {
     img{
       width: 100%;
       height: auto;
+      left: auto;
+    }
+    .name {
+      left: auto;
+    }
+    .year {
+      left: auto;
+    }
+    .right-div{
+      border-radius: 0px;
+    }
+    .collapsible {
+      background-color: beige;
     }
   }
   @media (max-width: 375px) {
@@ -126,5 +171,18 @@ img {
     img{
       width: 100%;
       height: auto;
+      left: auto;
+    }
+    .name {
+      left: auto;
+    }
+    .year {
+      left: auto;
+    }
+    .right-div{
+      border-radius: 0px;
+    }
+    .collapsible {
+      background-color: beige;
     }
   }
